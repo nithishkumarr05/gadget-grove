@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Form with Bootstrap for Phone Number</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+	<style>
+		p {
+			border: 3px solid black;
+			background-color: lightblue;
+			padding-top: 30px;
+			padding-right: 30px;
+			padding-bottom: 30px;
+			padding-left: 80px;
+		}
+
+	</style>
+</head>
+<body style="background:url(.png);
+	     background-size:200%;
+	     background-repeat:no-repeat;">
+	<div class="container">
+		<h1>Place An Order</h1><br>
+		<form>
+			<div class="mb-3 mt-3">
+				<label for="name">Full name(First and Last name):</label>
+				<input type="text" class="form-control" id="uname" placeholder="Enter your name" name="uname">
+			</div>
+			<div class="mb-3 mt-3">
+				<label for="number">Enter your phone number:</label>
+				<input type="tel" class="form-control" id="number" placeholder="Enter your phone number" name="number">
+			</div>
+			<div class="mb-3 mt-3">
+				<label for="address">Area, Street, Sector, village:</label>
+				<textarea class="form-control" rows="5" id="address" placeholder="Enter your Address" name="address"></textarea>
+			</div>
+			<div class="mb-3 mt-3">
+				<label for="landmark">Landmark:</label>
+				<input type="text" class="form-control" id="landmark" placeholder="E.g near hospital" name="landmark">
+			</div>
+			<div class="mb-3 mt-3">
+				<label for="pincode">Pincode:</label>
+				<input type="text" class="form-control" id="pincode" placeholder="Enter your pin code number" name="pincode">
+			</div>
+			<div class="mb-3 mt-3">
+				<label for="product">Select Your Product:</label>
+				<select class="form-select" id="product">
+					<option>iphone 13</option>
+					<option>iphone 13 Mini</option>
+					<option>iphone 13 Pro </option>
+					<option>iphone 13 Pro Max</option>
+                                        <option>iphone 14</option>
+					<option>iphone 14 Plus</option>
+					<option>iphone 14 Pro</option>
+					<option>iphone 14 Pro Max</option>
+
+                                         <option>Vivo X 70 pro+</option>
+                                         <option>Vivo X 80 </option>
+                                        <option>Vivo X 80 pro</option>
+                                       <option>Vivo X 90 </option>
+                                       <option>Vivo X 90 pro</option>
+                                        <option>Vivo V 27</option>
+ <option>Samsung Z Flip 5</option>
+<option>Samsung Z Fold 5</option>
+<option>Samsung S22 </option>
+<option>Samsung S22 Ultra</option>
+<option>Samsung S23</option>
+<option>Samsung S23 Ultra</option>
+<option>OnePlus 10R 5G</option>
+<option>OnePlus 10 pro 5G</option>
+<option>OnePlus 10 T 5G</option>
+<option>OnePlus 11 5G</option>
+<option>OnePlus 11 R 5G</option>
+<option>OnePlus 11 R 5G</option>
+<option>Oppo F21 Pro 5G</option>
+<option>Oppo F23 5G</option>
+<option>Oppo Reno8 5G</option>
+<option>Oppo Reno10 Pro</option>
+<option>Oppo Reno 10 Pro+ 5G</option>
+<option>Redmi Note 12 5G</option>
+<option>Redmi Note 12 Pro 5G</option>
+<option>Xiaomi 11 T Pro 5G</option>
+<option>Xiaomi 12 Pro</option>
+<option>Xiaomi 13 Pro</option>
+
+
+
+
+
+					
+				</select>
+			</div>
+			<div class="mb-3 mt-3">
+				<label for="color">Color:</label><br>
+				<div class="form-check form-check-inline">
+					<input class="form-check-input" type="radio" name="color" value="Red">
+					<label class="form-check-label">Red</label>
+				</div>
+				<div class="form-check form-check-inline">
+					<input class="form-check-input" type="radio" name="color" value="Blue">
+					<label class="form-check-label">Blue</label>
+				</div>
+				<div class="form-check form-check-inline">
+					<input class="form-check-input" type="radio" name="color" value="Green">
+					<label class="form-check-label">Green</label>
+				</div>
+				<div class="form-check form-check-inline">
+					<input class="form-check-input" type="radio" name="color" value="Black">
+					<label class="form-check-label">Black</label>
+				</div>
+				<div class="form-check form-check-inline">
+					<input class="form-check-input" type="radio" name="color" value="Pink">
+					<label class="form-check-label">Pink</label>
+				</div>
+			<div class="mb-3 mt-3">
+				<label>Storage:</label><br>
+				<div class="form-check form-check-inline">
+					<input class="form-check-input" type="checkbox" name="storage" value="64GB" checked>
+					<label class="form-check-label">64GB</label>
+				</div>
+				<div class="form-check form-check-inline">
+					<input class="form-check-input" type="checkbox" name="storage" value="128GB">
+					<label class="form-check-label">128GB</label>
+				</div>
+				<div class="form-check form-check-inline">
+					<input class="form-check-input" type="checkbox" name="storage" value="256GB">
+					<label class="form-check-label">256GB</label>
+				</div>
+				<div class="form-check form-check-inline">
+					<input class="form-check-input" type="checkbox" name="storage" value="512GB">
+					<label class="form-check-label">512GB</label>
+				</div>
+			</div>
+			<div class="mb-3 mt-3">
+				<label for="paymentMethod">Payment Method:</label>
+				<select class="form-select" id="paymentMethod">
+					<option>None</option>
+					<option>cash on delivery</option>
+					<option>Credit Card</option>
+					<option>Debit Card</option>
+					<option>Bank Transfer</option>
+				</select>
+			</div>
+			<button type="submit" class="btn btn-dark">Submit</button>
+			<button type="reset" class="btn btn-dark">Clear</button>
+		</form>
+		<br><br>
+		<p>Safe and secure payment. Easy return. 100% Authentic product</p>
+		<a href="homem.html"><i>Go Back Home</i></a><br><br>
+		<a href="seven.html"><i>Back</i></a>
+	</div>
+
+</body>
+</html>
